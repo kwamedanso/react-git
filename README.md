@@ -1,3 +1,43 @@
+# react-git
+
+How to clone react.js project from github and run on PC.
+
+Prerequisites:
+Node.js
+NPM
+Git
+
+1. Node.js:
+   Node.js is a JavaScript runtime environment that is used for building server-side applications.
+   It is also required for running React projects.
+2. npm(Node Package Manager):
+   npm is a package manager for Node.js that allows you to download and install packages and dependencies
+   that are required for your React project. npm is included with Node.js, so you don’t have to install it separately.
+3. Git:
+   Git is a version control system that is used for tracking changes in source code.
+
+Once you have these prerequisites installed, you can follow these steps to download a React project from Github and run it on your computer:
+
+1. Clone the repository:
+
+   git clone https://github.com/kwamedanso/react-git.git
+
+2. Change directory into the cloned reposioty:
+
+   cd react-git
+
+3. Install dependencies:
+
+   npm install
+
+4. In case of issues shown after the npm install, run the below to automatically fix the issues:
+
+   npm audis fix
+
+5. Start the development server:
+
+   npm start
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
